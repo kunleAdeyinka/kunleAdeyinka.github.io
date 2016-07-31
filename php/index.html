@@ -7,4 +7,40 @@ title: PHP Kunle Adeyinka, Languages
 	<p>This page contains a couple of projects built using PHP as the server side language. As usual, once each one is completed, I will place it here and add 
 	   the github link to the code.
 	</p>
+	<!-- Project Section-->
+	<h2>Stock Analyzer Application</h2>
+	<p>
+		This is a PHP web scraper that scrapes data from Yahoo finance site into a database which is then fed to the UI as JSON.
+		The JSON is then converted to a graph using Google Charts.
+	</p>
+	<p>
+		Technologies Used:
+		<ul>
+			<li>PHP 5</li>
+			<li>MySQL Server</li>
+			<li>Google Charts</li>
+			<li>Apache2 Web Server </li>
+			<li>XAMPP for local development </li>
+			<li>Ubuntu AWS EC2 Instance in the cloud</li>
+		</ul>
+	</p>
+	<p>
+		How does it work:
+		<ul>
+			<li>A script called stockDownloader.php reads the ticker symbols contained in a text file</li>
+			<li>With each symbol, the scraper gets the data of the stock price from Yahoo finance using a date range.</li>
+			<li>This data is then saved into a folder on the server as a text file per ticker symbol</li>
+			<li>The stockDownloader script then takes the data from each ticker symbol file and strips out the first row headers first and then saves the data to a table in the database using the ticker  symbol </li>
+			<li>On the user interface, each page runs a query that fetches the data from the database based on the ticker symbol </li>
+			<li>Each row is fetched as an associative array in PHP and then converted to JSON</li>
+			<li>The JSON data is then fed into Google charts on the UI using the closing price as the vertical axis and the date as the horizontal axis.</li>
+		</ul>
+	</p>
+	<p>
+		<ul>
+			<li><a href="http://ec2-54-196-140-117.compute-1.amazonaws.com/stockanalyzerapp/index.php">Demo URL on AWS</a> </li>
+			<li><a href="https://github.com/kunleAdeyinka/stockanalyzerapp">Github URL </a> </li>
+		</ul>
+	</p>
+	
 </div><!-- /.blurb -->
