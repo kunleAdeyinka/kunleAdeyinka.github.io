@@ -7,4 +7,31 @@ title: Python Kunle Adeyinka, the wakandan
 	<p>These will be a series of projects that I will be working on in Python to get my hands dirty. As each one is completed, I will place it here and add 
 	   the github link to the code.
 	</p>
+	<!-- Project Section-->
+	<h2>A Simple Web Scraper</h2>
+	<p>
+		This is a simple scraper written in Python tht extracts the roster of inmates at the Boone County Jail in Missouri from the local government's website using this url
+		https://report.boonecountymo.org/mrcjava/servlet/SH01_MP.I00290s .
+		The script extracts the first names, last names, middle names, sex, age, city and state from the HTML table. The table contains text items such as the Details link on each
+		row and the "&nbsp;" which are ignored. Once extracted, the data from each row is placed in a csv file.
+		<br>
+		Technologies Used:
+		<ul>
+			<li>Python</li>
+			<li>BeatufilSoup</li>
+			<li>Requests package</li>
+			<li><a href="https://github.com/kunleAdeyinka/rosterScraper">Github URL for Inmate Roster Scraper</a> </li>
+		</ul>
+	</p>
+	<h2>Web Scraping with Scrapy and PostgreSQL</h2>
+	<p>
+		This is a Python program that scrapes data from Stackoverflow.com to grab new questions based on their title and URL. The Scraped data is then stored in a PostgreSQL
+		database. The script makes use of the Scrapy package, as well as psycopg2 to allow Read and write operations to a PostgreSQL table.
+		<ul>
+			<li>Python</li>
+			<li>Scrapy</li>
+			<li>Psycopg2</li>
+			<li><a href="https://github.com/kunleAdeyinka/stockanalyzerapp">Github URL </a> </li>
+		</ul>
+	</p>
 </div><!-- /.blurb -->
