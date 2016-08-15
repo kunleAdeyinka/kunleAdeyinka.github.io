@@ -41,11 +41,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-.imgContainer{
-	float:left;
-}
-
-.div4 {
-    clear: left;
-}
