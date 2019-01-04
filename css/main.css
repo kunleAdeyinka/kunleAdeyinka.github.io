@@ -144,7 +144,7 @@ body {
   
 .content-body {
     line-height: 1.5;
-    color: rgba(0,0,0,.75);
+    color: rgba(255,255,255,.75);
 }
 
 /*EDUCATION*/
@@ -228,7 +228,7 @@ h4 {
 }
   
 /*CONTACT*/
-.blue {
+.carmine {
     background: #B04632;
     text-align: center;
 }
