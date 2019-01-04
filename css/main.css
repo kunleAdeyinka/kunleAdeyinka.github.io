@@ -245,7 +245,7 @@ h4 {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #B04632;
+    background: rgba(176,70,50,.6);
     color: #fff;
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
