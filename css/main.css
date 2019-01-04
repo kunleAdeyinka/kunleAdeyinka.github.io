@@ -245,7 +245,6 @@ h4 {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: rgba(176,70,50,.6);
     color: #fff;
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
@@ -259,7 +258,7 @@ h4 {
 .contact button {
     display: block;
     width: 100%;
-    background: #fff;
+    background: #000;
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
