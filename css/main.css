@@ -149,7 +149,7 @@ body {
 /*EDUCATION*/
 .card {
     display: flex;
-    color: rgba(0,0,0,.0.75);
+    color: rgba(0,0,0,.75);
     flex-direction: column;
     background-color: white;
     border: 1px solid rgba(0,0,0,.125);
