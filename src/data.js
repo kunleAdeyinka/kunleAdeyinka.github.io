@@ -24,12 +24,12 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "OneTime App",
+    subtitle: "React Native",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "An innovative app that enables care providers to clock in and out using geolocation (GPS), report daily tasks quickly and maintain direct contact with their agency.",
+    image: "./project1.gif",
+    link: "https://onetimehomecare.com/",
   },
 ];
 
