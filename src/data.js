@@ -1,27 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Allbets App",
+    subtitle: "React Native, Java Spring Boot, AWS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "allBETs provide a peer-to-peer platform where friendly wagers can be placed with friends, verifying the money is real and go live to wager on anything.  ",
+    image: "./project5.gif",
+    link: "https://allbetsgo.com/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Xclusv App",
+    subtitle: "TypeScript, Nest.js, GraphQL, React, Azure, React Native",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "A community engagement, eCommerce, and advertising platform for organizations that want to increase outreach and recruitment. ",
+    image: "./project4.gif",
+    link: "https://play.google.com/store/apps/details?id=app.xclusv.xclusv",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Easy Apply Platform and Sandbox API",
+    subtitle: "TypeScript, Node.js, GraphQL, GCP",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Platform gives you access to your credit scores, reports and product recommendations.",
+    image: "./project3.gif",
+    link: "https://www.creditkarma.com/",
+  },
+  {
+    title: "Sweetgreen Progressive Web App",
+    subtitle: "Ember.js, Android Studio, Visula Studio App Center",
+    description:
+      "The sweetgreen app is the #1 most convenient way to get craveable, feel-good food on-demand ",
+    image: "./project2.gif",
+    link: "https://play.google.com/store/apps/details?id=com.sweetgreen.android.app&hl=en_US&gl=US",
   },
   {
     title: "OneTime App",
@@ -29,7 +37,7 @@ export const projects = [
     description:
       "An innovative app that enables care providers to clock in and out using geolocation (GPS), report daily tasks quickly and maintain direct contact with their agency.",
     image: "./project1.gif",
-    link: "https://onetimehomecare.com/",
+    link: "https://apps.apple.com/us/app/onetimeapp/id1526914661?platform=iphone",
   },
 ];
 
